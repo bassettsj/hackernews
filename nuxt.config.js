@@ -1,4 +1,14 @@
+const routerBase =
+  process.env.DEPLOY_ENV === "GH_PAGES"
+    ? {
+        router: {
+          base: "/hackernews/"
+        }
+      }
+    : {}
+
 export default {
+  ...routerBase,
   head: {
     titleTemplate: "Nuxt HN | %s",
     meta: [
