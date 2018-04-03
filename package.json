@@ -24,8 +24,8 @@
     "start-spa": "nuxt start --spa",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build --spa",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate --spa",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "now": {
