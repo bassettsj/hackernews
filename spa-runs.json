@@ -1,0 +1,75 @@
+{
+  "runs": [
+    {
+      "timings": [
+        {
+          "title": "First Contentful Paint",
+          "id": "ttfcp",
+          "timestamp": 38608552959,
+          "timing": 3189.158,
+          "color": "green"
+        },
+        {
+          "title": "First Meaningful Paint",
+          "id": "ttfmp",
+          "timestamp": 38609521177,
+          "timing": 4157.376,
+          "color": "green"
+        },
+        {
+          "title": "Perceptual Speed Index",
+          "id": "psi",
+          "timestamp": 38609346137.07242,
+          "timing": 3982.336072418213,
+          "color": "blue"
+        },
+        {
+          "title": "First Visual Change",
+          "id": "fv",
+          "timestamp": 38606714801,
+          "timing": 1351,
+          "color": "blue"
+        },
+        {
+          "title": "Visually Complete 85%",
+          "id": "vc85",
+          "timestamp": 38609521297,
+          "timing": 4157.496,
+          "color": "blue"
+        },
+        {
+          "title": "Visually Complete 100%",
+          "id": "vc100",
+          "timestamp": 38609520801,
+          "timing": 4157,
+          "color": "blue"
+        },
+        {
+          "title": "First Interactive (vBeta)",
+          "id": "ttfi",
+          "timestamp": 38609521177,
+          "timing": 4157.376,
+          "color": "yellow"
+        },
+        {
+          "title": "Time to Consistently Interactive (vBeta)",
+          "id": "ttci",
+          "timestamp": 38609521177,
+          "timing": 4157.376,
+          "color": "yellow"
+        }
+      ],
+      "timestamps": [
+        {
+          "title": "Navigation Start",
+          "id": "navstart",
+          "timestamp": 38605363801
+        }
+      ],
+      "generatedTime": "2018-04-03T20:56:24.116Z",
+      "lighthouseVersion": "2.9.2",
+      "initialUrl": "https://bassettsj.github.io/hackernews",
+      "url": "https://bassettsj.github.io/hackernews/"
+    }
+  ]
+}
